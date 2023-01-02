@@ -1,0 +1,7 @@
+map_name: AA50-BuildCaps
+games:
+- game_name: AA50-41-Build Caps
+  file_name: WW2v3-1941-BuildCaps.xml
+- game_name: AA50-42-Build Caps
+  file_name: WW2v3-1942-BuildCaps.xml
+version: 0
