@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 
 <!DOCTYPE game SYSTEM "game.dtd">
 
@@ -613,45 +613,16 @@
   
         <unitList>
                 <unit name="infantry"/>
-                <unit name="infantry_it"/>
                 <unit name="artillery"/>
-                <unit name="artillery_br"/>
-                <unit name="artillery_ru"/>
-                <unit name="artillery_it"/>
                 <unit name="armour"/>
-                <unit name="armour_us"/>
-                <unit name="armour_br"/>
-                <unit name="armour_ja"/>
-                <unit name="armour_it"/>
                 <unit name="fighter"/>
-                <unit name="fighter_it"/>
                 <unit name="bomber"/>
-                <unit name="bomber_br"/>
-                <unit name="bomber_us"/>
-                <unit name="bomber_ru"/>
-                <unit name="bomber_it"/>
-                <unit name="transport_ru"/>
-                <unit name="transport_ge"/>
-                <unit name="transport_it"/>
                 <unit name="transport"/>
                 <unit name="submarine"/>
-                <unit name="submarine_ru"/>
-                <unit name="submarine_ge"/>
-                <unit name="submarine_it"/>
                 <unit name="destroyer"/>
-	        <unit name="destroyer_ru"/>
-	        <unit name="destroyer_it"/>
 	        <unit name="cruiser"/>
-	        <unit name="cruiser_ru"/>
-	        <unit name="cruiser_it"/>
                 <unit name="carrier"/>
-                <unit name="carrier_us"/>
-                <unit name="carrier_br"/>
-                <unit name="carrier_ja"/>
                 <unit name="battleship"/>
-                <unit name="battleship_ja"/>
-                <unit name="battleship_ru"/>
-                <unit name="battleship_it"/>
                 <unit name="aaGun"/>
                 <unit name="factory"/>
         </unitList>
@@ -764,29 +735,9 @@
                         <result resourceOrUnit="infantry" quantity="1"/>
                 </productionRule>
                 
-                <productionRule name="buyInfantry_it">
-                        <cost resource="PUs" quantity="3" />
-                        <result resourceOrUnit="infantry_it" quantity="1"/>
-                </productionRule>
-                
                 <productionRule name="buyArtillery">
                         <cost resource="PUs" quantity="4" />
                         <result resourceOrUnit="artillery" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyArtillery_br">
-                        <cost resource="PUs" quantity="4" />
-                        <result resourceOrUnit="artillery_br" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyArtillery_it">
-                        <cost resource="PUs" quantity="4" />
-                        <result resourceOrUnit="artillery_it" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyArtillery_ru">
-                        <cost resource="PUs" quantity="4" />
-                        <result resourceOrUnit="artillery_ru" quantity="1"/>
                 </productionRule>
                 
                 <productionRule name="buyArmour">
@@ -794,34 +745,9 @@
                         <result resourceOrUnit="armour" quantity="1"/>
                 </productionRule>
                 
-                <productionRule name="buyArmour_us">
-                        <cost resource="PUs" quantity="5" />
-                        <result resourceOrUnit="armour_us" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyArmour_br">
-                        <cost resource="PUs" quantity="5" />
-                        <result resourceOrUnit="armour_br" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyArmour_ja">
-                        <cost resource="PUs" quantity="5" />
-                        <result resourceOrUnit="armour_ja" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyArmour_it">
-                        <cost resource="PUs" quantity="5" />
-                        <result resourceOrUnit="armour_it" quantity="1"/>
-                </productionRule>
-
                 <productionRule name="buyFighter">
                         <cost resource="PUs" quantity="10" />
                         <result resourceOrUnit="fighter" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyFighter_it">
-                        <cost resource="PUs" quantity="10" />
-                        <result resourceOrUnit="fighter_it" quantity="1"/>
                 </productionRule>
                 
                 <productionRule name="buyBomber">
@@ -829,62 +755,12 @@
                         <result resourceOrUnit="bomber" quantity="1"/>
                 </productionRule>
                 
-                <productionRule name="buyBomber_us">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="bomber_us" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyBomber_br">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="bomber_br" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyBomber_ru">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="bomber_ru" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyBomber_it">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="bomber_it" quantity="1"/>
-                </productionRule>
-                
                 <productionRule name="buyTransport">
                         <cost resource="PUs" quantity="7" />
                         <result resourceOrUnit="transport" quantity="1"/>
                 </productionRule>
 
-                <productionRule name="buyTransport_ru">
-                        <cost resource="PUs" quantity="7" />
-                        <result resourceOrUnit="transport_ru" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyTransport_ge">
-                        <cost resource="PUs" quantity="7" />
-                        <result resourceOrUnit="transport_ge" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyTransport_it">
-                        <cost resource="PUs" quantity="7" />
-                        <result resourceOrUnit="transport_it" quantity="1"/>
-                </productionRule>
-
                 <productionRule name="buyCarrier">
-                        <cost resource="PUs" quantity="14" />
-                        <result resourceOrUnit="carrier" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyCarrier_us">
-                        <cost resource="PUs" quantity="14" />
-                        <result resourceOrUnit="carrier" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyCarrier_br">
-                        <cost resource="PUs" quantity="14" />
-                        <result resourceOrUnit="carrier" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buyCarrier_ja">
                         <cost resource="PUs" quantity="14" />
                         <result resourceOrUnit="carrier" quantity="1"/>
                 </productionRule>
@@ -894,29 +770,9 @@
                         <result resourceOrUnit="destroyer" quantity="1"/>
                 </productionRule>
 				
-                <productionRule name="buyDestroyer_ru">
-                        <cost resource="PUs" quantity="8" />
-                        <result resourceOrUnit="destroyer_ru" quantity="1"/>
-                </productionRule>
-				
-                <productionRule name="buyDestroyer_it">
-                        <cost resource="PUs" quantity="8" />
-                        <result resourceOrUnit="destroyer_it" quantity="1"/>
-                </productionRule>
-				
 				        <productionRule name="buyCruiser">
                         <cost resource="PUs" quantity="12" />
                         <result resourceOrUnit="cruiser" quantity="1"/>
-                </productionRule>
-                
-				        <productionRule name="buyCruiser_ru">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="cruiser_ru" quantity="1"/>
-                </productionRule>
-                
-				        <productionRule name="buyCruiser_it">
-                        <cost resource="PUs" quantity="12" />
-                        <result resourceOrUnit="cruiser_it" quantity="1"/>
                 </productionRule>
                 
                 <productionRule name="buyBattleship">
@@ -924,39 +780,9 @@
                         <result resourceOrUnit="battleship" quantity="1"/>
                 </productionRule>
 
-                <productionRule name="buyBattleship_ja">
-                        <cost resource="PUs" quantity="20" />
-                        <result resourceOrUnit="battleship_ja" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyBattleship_it">
-                        <cost resource="PUs" quantity="20" />
-                        <result resourceOrUnit="battleship_it" quantity="1"/>
-                </productionRule>
-
-                <productionRule name="buyBattleship_ru">
-                        <cost resource="PUs" quantity="20" />
-                        <result resourceOrUnit="battleship_ru" quantity="1"/>
-                </productionRule>
-
                 <productionRule name="buySubmarine">
                         <cost resource="PUs" quantity="6" />
                         <result resourceOrUnit="submarine" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buySubmarine_ru">
-                        <cost resource="PUs" quantity="6" />
-                        <result resourceOrUnit="submarine_ru" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buySubmarine_ge">
-                        <cost resource="PUs" quantity="6" />
-                        <result resourceOrUnit="submarine_ge" quantity="1"/>
-                </productionRule>
-                
-                <productionRule name="buySubmarine_it">
-                        <cost resource="PUs" quantity="6" />
-                        <result resourceOrUnit="submarine_it" quantity="1"/>
                 </productionRule>
                 
                 <productionRule name="buyFactory">
@@ -1106,102 +932,6 @@
                         <frontierRules name="buyAAGun"/>
                         <frontierRules name="buyFactory"/>        
                 </productionFrontier>
-                
-	              <productionFrontier name="production_us">
-                        <frontierRules name="buyInfantry"/>
-                        <frontierRules name="buyArtillery"/>
-                        <frontierRules name="buyArmour_us"/>
-                        <frontierRules name="buyFighter"/>
-                        <frontierRules name="buyBomber_us"/>
-                        <frontierRules name="buyTransport"/>
-                        <frontierRules name="buySubmarine"/>
-                        <frontierRules name="buyDestroyer"/>
-            		<frontierRules name="buyCruiser"/>
-                        <frontierRules name="buyCarrier_us"/>
-                        <frontierRules name="buyBattleship"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
-                 
-                <productionFrontier name="production_ja">
-                        <frontierRules name="buyInfantry"/>
-                        <frontierRules name="buyArtillery"/>
-                        <frontierRules name="buyArmour_ja"/>
-                        <frontierRules name="buyFighter"/>
-                        <frontierRules name="buyBomber"/>
-                        <frontierRules name="buyTransport"/>
-                        <frontierRules name="buySubmarine"/>
-                        <frontierRules name="buyDestroyer"/>
-            		<frontierRules name="buyCruiser"/>
-                        <frontierRules name="buyCarrier_ja"/>
-                        <frontierRules name="buyBattleship_ja"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
-  
-                <productionFrontier name="production_it">
-                        <frontierRules name="buyInfantry_it"/>
-                        <frontierRules name="buyArtillery_it"/>
-                        <frontierRules name="buyArmour_it"/>
-                        <frontierRules name="buyFighter_it"/>
-                        <frontierRules name="buyBomber_it"/>
-                        <frontierRules name="buyTransport_it"/>
-                        <frontierRules name="buySubmarine_it"/>
-                        <frontierRules name="buyDestroyer_it"/>
-        	            <frontierRules name="buyCruiser_it"/>
-                        <frontierRules name="buyCarrier"/>
-                        <frontierRules name="buyBattleship_it"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
-  
-                <productionFrontier name="production_br">
-                        <frontierRules name="buyInfantry"/>
-                        <frontierRules name="buyArtillery_br"/>
-                        <frontierRules name="buyArmour_br"/>
-                        <frontierRules name="buyFighter"/>
-                        <frontierRules name="buyBomber_br"/>
-                        <frontierRules name="buyTransport"/>
-                        <frontierRules name="buySubmarine"/>
-                        <frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyCruiser"/>
-                        <frontierRules name="buyCarrier_br"/>
-                        <frontierRules name="buyBattleship"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
-                
-	              <productionFrontier name="production_ru">
-                        <frontierRules name="buyInfantry"/>
-                        <frontierRules name="buyArtillery_ru"/>
-                        <frontierRules name="buyArmour"/>
-                        <frontierRules name="buyFighter"/>
-                        <frontierRules name="buyBomber_ru"/>
-                        <frontierRules name="buyTransport_ru"/>
-                        <frontierRules name="buySubmarine_ru"/>
-                        <frontierRules name="buyDestroyer_ru"/>
-		        <frontierRules name="buyCruiser_ru"/>
-                        <frontierRules name="buyCarrier"/>
-                        <frontierRules name="buyBattleship_ru"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
-                
-                <productionFrontier name="production_ge">
-                        <frontierRules name="buyInfantry"/>
-                        <frontierRules name="buyArtillery"/>
-                        <frontierRules name="buyArmour"/>
-                        <frontierRules name="buyFighter"/>
-                        <frontierRules name="buyBomber"/>
-                        <frontierRules name="buyTransport_ge"/>
-                        <frontierRules name="buySubmarine_ge"/>
-                        <frontierRules name="buyDestroyer"/>
-		        <frontierRules name="buyCruiser"/>
-                        <frontierRules name="buyCarrier"/>
-                        <frontierRules name="buyBattleship"/>
-                        <frontierRules name="buyAAGun"/>
-                        <frontierRules name="buyFactory"/>        
-                </productionFrontier>
                 				<!--
                 <productionFrontier name="productionIndustrialTechnology">
                         <frontierRules name="buyInfantryIndustrialTechnology"/>
@@ -1229,13 +959,13 @@
                         <frontierRules name="buyBattleshipShipyards"/>   
                 </productionFrontier>
                 
-                <playerProduction player="Germans" frontier="production_ge"/>
-				<playerProduction player="Russians" frontier="production_ru"/>
-				<playerProduction player="Japanese" frontier="production_ja"/>
-				<playerProduction player="British" frontier="production_br"/>
-                <playerProduction player="Italians" frontier="production_it"/>
+                <playerProduction player="Germans" frontier="production"/>
+				<playerProduction player="Russians" frontier="production"/>
+				<playerProduction player="Japanese" frontier="production"/>
+				<playerProduction player="British" frontier="production"/>
+                <playerProduction player="Italians" frontier="production"/>
 				<playerProduction player="Chinese" frontier="production"/>
-                <playerProduction player="Americans" frontier="production_us"/>
+                <playerProduction player="Americans" frontier="production"/>
                 
                 <playerRepair player="Germans" frontier="repair"/>
 				<playerRepair player="Russians" frontier="repair"/>
@@ -1357,18 +1087,6 @@
                           <option name="maxBuiltPerPlayer"  value="25"/>
                 </attachment>
 				
-				        <attachment name="unitAttachment" attachTo="infantry_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="1"/>
-                         <option name="transportCost" value="2"/>
-                         <option name="isInfantry" value="true"/>
-                         <option name="isAirTransportable" value="true"/>
-                         <option name="attack" value="1"/>
-                         <option name="defense" value="2"/>
-                         <option name="artillerySupportable" value="true"/>
-                          <option name="maxBuiltPerPlayer"  value="20"/>
-                </attachment>
-				
-				
                 <!-- Artillery -->
                 <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="1"/>
@@ -1377,33 +1095,6 @@
                          <option name="defense" value="2"/>
                          <option name="artillery" value="true"/>
                          <option name="maxBuiltPerPlayer"  value="12"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="artillery_br" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="1"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="2"/>
-                         <option name="artillery" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="10"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="artillery_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="1"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="2"/>
-                         <option name="artillery" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="14"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="artillery_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="1"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="2"/>
-                         <option name="artillery" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="16"/>
                 </attachment>
 
                 <!-- Armour -->
@@ -1417,46 +1108,6 @@
                          <option name="maxBuiltPerPlayer"  value="14"/>
                 </attachment>
             
-                <attachment name="unitAttachment" attachTo="armour_us" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="canBlitz" value="true"/>
-                         <option name="isLandTransport" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="maxBuiltPerPlayer"  value="12"/>
-                </attachment>
-  
-                <attachment name="unitAttachment" attachTo="armour_br" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="canBlitz" value="true"/>
-                         <option name="isLandTransport" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="maxBuiltPerPlayer"  value="10"/>
-                </attachment>
-  
-                <attachment name="unitAttachment" attachTo="armour_ja" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="canBlitz" value="true"/>
-                         <option name="isLandTransport" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="maxBuiltPerPlayer"  value="8"/>
-                </attachment>
-  
-                <attachment name="unitAttachment" attachTo="armour_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="transportCost" value="3"/>
-                         <option name="canBlitz" value="true"/>
-                         <option name="isLandTransport" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-  
                 <!-- Fighter -->
                 <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="4"/>
@@ -1469,19 +1120,6 @@
                          <option name="airDefense" value="1"/>
                          <option name="airAttack" value="1"/>
                          <option name="maxBuiltPerPlayer"  value="12"/>
-                </attachment>
-            
-            <attachment name="unitAttachment" attachTo="fighter_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="4"/>
-                         <option name="carrierCost" value="1"/>
-                         <option name="isAir" value="true"/>   
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="4"/>
-						 <option name="canIntercept" value="true"/>
-						 <option name="canEscort" value="true"/>
-                         <option name="airDefense" value="1"/>
-                         <option name="airAttack" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="8"/>
                 </attachment>
             
                 <!-- Bomber -->
@@ -1497,54 +1135,6 @@
                          <option name="maxBuiltPerPlayer"  value="6"/>
                 </attachment>
 
-                <attachment name="unitAttachment" attachTo="bomber_us" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="6"/>
-                         <option name="isAir" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="1"/>
-                         <option name="isStrategicBomber" value="true"/>
-                         <option name="transportCapacity" value="2"/>
-                         <option name="isAirTransport" value="true"/>
-                         <option name="airAttack" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="8"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="bomber_br" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="6"/>
-                         <option name="isAir" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="1"/>
-                         <option name="isStrategicBomber" value="true"/>
-                         <option name="transportCapacity" value="2"/>
-                         <option name="isAirTransport" value="true"/>
-                         <option name="airAttack" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="8"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="bomber_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="6"/>
-                         <option name="isAir" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="1"/>
-                         <option name="isStrategicBomber" value="true"/>
-                         <option name="transportCapacity" value="2"/>
-                         <option name="isAirTransport" value="true"/>
-                         <option name="airAttack" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="4"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="bomber_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="6"/>
-                         <option name="isAir" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="1"/>
-                         <option name="isStrategicBomber" value="true"/>
-                         <option name="transportCapacity" value="2"/>
-                         <option name="isAirTransport" value="true"/>
-                         <option name="airAttack" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="4"/>
-                </attachment>
-
                 <!-- Transport -->
                 <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="2"/>
@@ -1553,33 +1143,6 @@
                          <option name="attack" value="0"/>
                          <option name="defense" value="0"/>
                          <option name="maxBuiltPerPlayer"  value="10"/>
-                </attachment>
-            
-                <attachment name="unitAttachment" attachTo="transport_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="transportCapacity" value="5"/>   
-                         <option name="attack" value="0"/>
-                         <option name="defense" value="0"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-            
-                <attachment name="unitAttachment" attachTo="transport_ge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="transportCapacity" value="5"/>   
-                         <option name="attack" value="0"/>
-                         <option name="defense" value="0"/>
-                         <option name="maxBuiltPerPlayer"  value="8"/>
-                </attachment>
-            
-                <attachment name="unitAttachment" attachTo="transport_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="transportCapacity" value="5"/>   
-                         <option name="attack" value="0"/>
-                         <option name="defense" value="0"/>
-                         <option name="maxBuiltPerPlayer"  value="4"/>
                 </attachment>
             
                 <!-- Battle Ship -->
@@ -1593,36 +1156,6 @@
                          <option name="maxBuiltPerPlayer"  value="4"/>
                  </attachment>
 				 
-	              <attachment name="unitAttachment" attachTo="battleship_ja" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="4"/>
-                         <option name="canBombard" value="true"/>
-                        <option name="hitPoints" value="2"/>
-                        <option name="maxBuiltPerPlayer"  value="6"/>
-                 </attachment>
-				 
-	              <attachment name="unitAttachment" attachTo="battleship_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="4"/>
-                         <option name="canBombard" value="true"/>
-                        <option name="hitPoints" value="2"/>
-                        <option name="maxBuiltPerPlayer"  value="2"/>
-                 </attachment>
-				 
-	              <attachment name="unitAttachment" attachTo="battleship_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>
-                         <option name="attack" value="4"/>
-                         <option name="defense" value="4"/>
-                         <option name="canBombard" value="true"/>
-                         <option name="isTwoHit" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="2"/>
-                 </attachment>
-				 
 				 <!-- Cruiser -->
                 <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="movement" value="2"/>
@@ -1632,26 +1165,6 @@
                          <option name="canBombard" value="true"/>
                          <option name="isTwoHit" value="false"/>
                          <option name="maxBuiltPerPlayer"  value="8"/>
-                 </attachment>
-                 
-                <attachment name="unitAttachment" attachTo="cruiser_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="canBombard" value="true"/>
-                         <option name="isTwoHit" value="false"/>
-                         <option name="maxBuiltPerPlayer"  value="4"/>
-                 </attachment>
-                 
-                <attachment name="unitAttachment" attachTo="cruiser_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>
-                         <option name="attack" value="3"/>
-                         <option name="defense" value="3"/>
-                         <option name="canBombard" value="true"/>
-                         <option name="isTwoHit" value="false"/>
-                         <option name="maxBuiltPerPlayer"  value="2"/>
                  </attachment>
                  
                 <!-- Destroyer -->
@@ -1664,24 +1177,6 @@
                          <option name="maxBuiltPerPlayer"  value="10"/>
                 </attachment>
                 
-                <attachment name="unitAttachment" attachTo="destroyer_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="2"/>
-                         <option name="isDestroyer" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-                
-                <attachment name="unitAttachment" attachTo="destroyer_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="2"/>
-                         <option name="isDestroyer" value="true"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-                
                 <!-- Carrier -->
                 <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="carrierCapacity" value="2"/>
@@ -1692,33 +1187,6 @@
                          <option name="maxBuiltPerPlayer"  value="2"/>
                 </attachment>
 
-                <attachment name="unitAttachment" attachTo="carrier_us" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="carrierCapacity" value="2"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="1"/>
-                         <option name="defense" value="2"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="carrier_br" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="carrierCapacity" value="2"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="1"/>
-                         <option name="defense" value="2"/>
-                         <option name="maxBuiltPerPlayer"  value="4"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="carrier_ja" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="carrierCapacity" value="2"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="1"/>
-                         <option name="defense" value="2"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-
                 <!-- Submarine -->
                 <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
                          <option name="isSub" value="true"/>
@@ -1727,33 +1195,6 @@
                          <option name="attack" value="2"/>
                          <option name="defense" value="1"/>
                          <option name="maxBuiltPerPlayer"  value="10"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="submarine_ru" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="isSub" value="true"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="submarine_ge" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="isSub" value="true"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="12"/>
-                </attachment>
-
-                <attachment name="unitAttachment" attachTo="submarine_it" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-                         <option name="isSub" value="true"/>
-                         <option name="movement" value="2"/>
-                         <option name="isSea" value="true"/>   
-                         <option name="attack" value="2"/>
-                         <option name="defense" value="1"/>
-                         <option name="maxBuiltPerPlayer"  value="6"/>
                 </attachment>
 
                 <!-- Factory -->
@@ -2475,13 +1916,13 @@
       <unitPlacement unitType="armour" territory="Poland" quantity="1" owner="Germans"/>
       <unitPlacement unitType="infantry" territory="Ukraine" quantity="2" owner="Germans"/>
       <unitPlacement unitType="armour" territory="Ukraine" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="submarine_ge" territory="7 Sea Zone" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="submarine_ge" territory="8 Sea Zone" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="submarine_ge" territory="5 Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="submarine" territory="7 Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="submarine" territory="8 Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="submarine" territory="5 Sea Zone" quantity="1" owner="Germans"/>
       <unitPlacement unitType="destroyer" territory="5 Sea Zone" quantity="1" owner="Germans"/>
       <unitPlacement unitType="cruiser" territory="5 Sea Zone" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="transport_ge" territory="5 Sea Zone" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="transport_ge" territory="13 Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="transport" territory="5 Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="transport" territory="13 Sea Zone" quantity="1" owner="Germans"/>
       <unitPlacement unitType="destroyer" territory="13 Sea Zone" quantity="1" owner="Germans"/>
       <!-- Russian Unit Placements -->
       <unitPlacement unitType="infantry" territory="Archangel" quantity="3" owner="Russians"/>
@@ -2490,7 +1931,7 @@
       <unitPlacement unitType="factory" territory="Caucasus" quantity="1" owner="Russians"/>
       <unitPlacement unitType="aaGun" territory="Caucasus" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Caucasus" quantity="3" owner="Russians"/>
-      <unitPlacement unitType="artillery_ru" territory="Caucasus" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="artillery" territory="Caucasus" quantity="1" owner="Russians"/>
       <unitPlacement unitType="armour" territory="Caucasus" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Evenki National Okrug" quantity="1" owner="Russians"/>
       <unitPlacement unitType="factory" territory="Karelia S.S.R." quantity="1" owner="Russians"/>
@@ -2502,14 +1943,14 @@
       <unitPlacement unitType="factory" territory="Russia" quantity="1" owner="Russians"/>
       <unitPlacement unitType="aaGun" territory="Russia" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Russia" quantity="3" owner="Russians"/>
-      <unitPlacement unitType="artillery_ru" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="artillery" territory="Russia" quantity="1" owner="Russians"/>
       <unitPlacement unitType="armour" territory="Russia" quantity="2" owner="Russians"/>
-      <unitPlacement unitType="bomber_ru" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="bomber" territory="Russia" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Soviet Far East" quantity="3" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Stanovoj Chrebet" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Urals" quantity="1" owner="Russians"/>
       <unitPlacement unitType="infantry" territory="Yakut S.S.R." quantity="1" owner="Russians"/>
-      <unitPlacement unitType="submarine_ru" territory="4 Sea Zone" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="submarine" territory="4 Sea Zone" quantity="1" owner="Russians"/>
       <!-- Japanese Unit Placements -->
       <unitPlacement unitType="infantry" territory="Borneo" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="infantry" territory="Burma" quantity="1" owner="Japanese"/>
@@ -2523,7 +1964,7 @@
       <unitPlacement unitType="factory" territory="Japan" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="infantry" territory="Japan" quantity="4" owner="Japanese"/>
       <unitPlacement unitType="artillery" territory="Japan" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="armour_ja" territory="Japan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="armour" territory="Japan" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="fighter" territory="Japan" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="bomber" territory="Japan" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="infantry" territory="Kiangsu" quantity="3" owner="Japanese"/>
@@ -2536,7 +1977,7 @@
       <unitPlacement unitType="infantry" territory="Wake Island" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="fighter" territory="38 Sea Zone" quantity="2" owner="Japanese"/>
       <unitPlacement unitType="carrier" territory="38 Sea Zone" quantity="1" owner="Japanese"/>
-      <unitPlacement unitType="battleship_ja" territory="38 Sea Zone" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="battleship" territory="38 Sea Zone" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="submarine" territory="46 Sea Zone" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="cruiser" territory="50 Sea Zone" quantity="1" owner="Japanese"/>
       <unitPlacement unitType="destroyer" territory="51 Sea Zone" quantity="1" owner="Japanese"/>
@@ -2550,25 +1991,25 @@
       <unitPlacement unitType="infantry" territory="Australia" quantity="3" owner="British"/>
       <unitPlacement unitType="fighter" territory="Australia" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Eastern Canada" quantity="2" owner="British"/>
-      <unitPlacement unitType="armour_br" territory="Eastern Canada" quantity="1" owner="British"/>
+      <unitPlacement unitType="armour" territory="Eastern Canada" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Egypt" quantity="3" owner="British"/>
-      <unitPlacement unitType="armour_br" territory="Egypt" quantity="1" owner="British"/>
+      <unitPlacement unitType="armour" territory="Egypt" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="Egypt" quantity="1" owner="British"/>
       <unitPlacement unitType="aaGun" territory="India" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="India" quantity="3" owner="British"/>
       <unitPlacement unitType="infantry" territory="New Zealand" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Persia" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Trans-Jordan" quantity="1" owner="British"/>
-      <unitPlacement unitType="artillery_br" territory="Trans-Jordan" quantity="1" owner="British"/>
+      <unitPlacement unitType="artillery" territory="Trans-Jordan" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Union of South Africa" quantity="1" owner="British"/>
-      <unitPlacement unitType="artillery_br" territory="Union of South Africa" quantity="1" owner="British"/>
+      <unitPlacement unitType="artillery" territory="Union of South Africa" quantity="1" owner="British"/>
       <unitPlacement unitType="factory" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="United Kingdom" quantity="2" owner="British"/>
-      <unitPlacement unitType="artillery_br" territory="United Kingdom" quantity="1" owner="British"/>
-      <unitPlacement unitType="armour_br" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="artillery" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="armour" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="United Kingdom" quantity="2" owner="British"/>
-      <unitPlacement unitType="bomber_br" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="British"/>
       <unitPlacement unitType="infantry" territory="Western Canada" quantity="1" owner="British"/>
       <unitPlacement unitType="transport" territory="1 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="cruiser" territory="1 Sea Zone" quantity="1" owner="British"/>
@@ -2582,20 +2023,20 @@
       <unitPlacement unitType="transport" territory="35 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="destroyer" territory="35 Sea Zone" quantity="1" owner="British"/>
       <unitPlacement unitType="fighter" territory="35 Sea Zone" quantity="1" owner="British"/>
-      <unitPlacement unitType="carrier_br" territory="35 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="carrier" territory="35 Sea Zone" quantity="1" owner="British"/>
       <!-- Italian Unit Placements -->
       <unitPlacement unitType="factory" territory="Italy" quantity="1" owner="Italians"/>
       <unitPlacement unitType="aaGun" territory="Italy" quantity="1" owner="Italians"/>
-      <unitPlacement unitType="armour_it" territory="Italy" quantity="2" owner="Italians"/>
-      <unitPlacement unitType="fighter_it" territory="Italy" quantity="1" owner="Italians"/>
-      <unitPlacement unitType="infantry_it" territory="Italy" quantity="2" owner="Italians"/>
-      <unitPlacement unitType="artillery_it" territory="Italy" quantity="1" owner="Italians"/>
-      <unitPlacement unitType="infantry_it" territory="Libya" quantity="2" owner="Italians"/>
-      <unitPlacement unitType="infantry_it" territory="Balkans" quantity="2" owner="Italians"/>
-      <unitPlacement unitType="armour_it" territory="Balkans" quantity="1" owner="Italians"/>
-      <unitPlacement unitType="transport_it" territory="14 Sea Zone" quantity="1" owner="Italians"/>
-      <unitPlacement unitType="cruiser_it" territory="14 Sea Zone" quantity="2" owner="Italians"/>
-      <unitPlacement unitType="battleship_it" territory="14 Sea Zone" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="armour" territory="Italy" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="fighter" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Italy" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="artillery" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Libya" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Balkans" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="armour" territory="Balkans" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="transport" territory="14 Sea Zone" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="cruiser" territory="14 Sea Zone" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="battleship" territory="14 Sea Zone" quantity="1" owner="Italians"/>
       <!-- US Chinese Placements -->
       <unitPlacement unitType="infantry" territory="Chinghai" quantity="1" owner="Chinese"/>
       <unitPlacement unitType="infantry" territory="Fukien" quantity="1" owner="Chinese"/>
@@ -2612,9 +2053,9 @@
       <unitPlacement unitType="aaGun" territory="Eastern United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="infantry" territory="Eastern United States" quantity="2" owner="Americans"/>
       <unitPlacement unitType="artillery" territory="Eastern United States" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="armour_us" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="armour" territory="Eastern United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="fighter" territory="Eastern United States" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="bomber_us" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="Eastern United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="infantry" territory="Hawaiian Islands" quantity="2" owner="Americans"/>
       <unitPlacement unitType="fighter" territory="Hawaiian Islands" quantity="1" owner="Americans"/>
       <unitPlacement unitType="infantry" territory="Midway" quantity="1" owner="Americans"/>
@@ -2622,14 +2063,14 @@
       <unitPlacement unitType="aaGun" territory="Western United States" quantity="1" owner="Americans"/>
       <unitPlacement unitType="infantry" territory="Western United States" quantity="2" owner="Americans"/>
       <unitPlacement unitType="fighter" territory="Western United States" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="bomber_us" territory="Western United States" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="bomber_us" territory="United Kingdom" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="Western United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="Americans"/>
       <unitPlacement unitType="transport" territory="10 Sea Zone" quantity="2" owner="Americans"/>
       <unitPlacement unitType="destroyer" territory="10 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="destroyer" territory="20 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="destroyer" territory="53 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="fighter" territory="53 Sea Zone" quantity="1" owner="Americans"/>
-      <unitPlacement unitType="carrier_us" territory="53 Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="carrier" territory="53 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="transport" territory="56 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="submarine" territory="56 Sea Zone" quantity="1" owner="Americans"/>
       <unitPlacement unitType="cruiser" territory="56 Sea Zone" quantity="1" owner="Americans"/>
